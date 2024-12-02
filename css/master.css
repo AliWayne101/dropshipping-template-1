@@ -24,48 +24,48 @@ body {
 }
 
 nav {
-    margin: 20px 0;
-}
-
-nav .nav {
+    /* background-color: red; */
     display: grid;
-    grid-template-columns: 40% 30%;
-    justify-content: center;
+    grid-template-columns: 30% 40% 30%;
+    margin: 5px 0;
 }
 
-nav .nav div {
-    background-color: var(--highlight-bg);
-    margin: 10px 0;
-    padding: 10px 40px;
+nav div:nth-child(1) {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    font-size: 18px;
 }
 
-nav .nav div:nth-child(1) {
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+nav div:nth-child(2) {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    padding-right: 20px;
 }
 
-nav .nav div:nth-child(1) a {
-    display: inline-block;
-    padding: 0 10px;;
+nav div:nth-child(3) {
+    display: flex;
+    align-items: center;
 }
 
-nav .nav div:nth-child(2) {
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
-
-nav .nav .nav-menu ul {
-    list-style-type: none;
+nav div ul {
     display: flex;
 }
 
-nav .nav .nav-menu ul li {
+nav div ul li {
+    list-style-type: none;
     margin: 0 5px;
-    padding: 0 5px;
 }
 
-nav .nav .nav-menu ul li a {
+nav div ul li a {
     display: block;
+    padding: 10px;
+}
+
+nav div ul li a:hover {
+    background-color: var(--link-color);
+    color: white;
 }
 
 .body {
@@ -74,15 +74,9 @@ nav .nav .nav-menu ul li a {
 
 .footer {
     background-color: var(--highlight-bg);
+    min-height: 200px;
 }
 
 @media screen and (max-width: 720px) {
-    nav .nav {
-        display: flex;
-    }
-
-    nav .nav div {
-        margin: 10px 0;
-        padding: 5px;
-    }
+    
 }

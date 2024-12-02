@@ -1,4 +1,8 @@
 .hero {
-    background-color: green;
     margin: 20px 0;
+}
+
+.hero img {
+    height: auto;
+    width: 100%;
 }

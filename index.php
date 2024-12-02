@@ -21,18 +21,20 @@ include './vars/_conf.php';
 
 <body>
     <nav>
-        <div class="nav">
-            <div>
-                <a href="/">LOGO</a>
-            </div>
-            <div class="nav-menu">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Home</a></li>
-                </ul>
+        <div><a href="/">Logo</a></div>
+        <div>
+            <ul>
+            <li><a href="/">Menu</a></li>
+            <li><a href="/">Menu</a></li>
+            <li><a href="/">Menu</a></li>
+            <li><a href="/">Menu</a></li>
+            <li><a href="/">Menu</a></li>
+            <li><a href="/">Menu</a></li>
+            </ul>
+        </div>
+        <div>
+            <div class="search-bar">
+                <input type="text" name="search" id="search"> 
             </div>
         </div>
     </nav>
@@ -40,7 +42,7 @@ include './vars/_conf.php';
     <div class="body">
 
         <div class="hero">
-            this is it
+            <img src="img/banner.png" alt="banner">
         </div>
         
         <div class="content">
