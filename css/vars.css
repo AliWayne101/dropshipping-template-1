@@ -1,0 +1,24 @@
+:root {
+    /* --bg-color: rgb(243, 243, 243); */
+    /* --highlight-bg: white; */
+    /* --link-color: purple; */
+    /* --bg-color: #1B1833;
+    --highlight-bg: #44175259;
+    --link-color: #F29F58;
+    --link-color-hl: #AB4459; */
+    --bg-color: #fafafa;
+    --highlight-bg: #eeeeee;
+    --link-color: #F29F58;
+    --link-color-hl: #AB4459;
+    
+}
+
+.content {
+    margin: 0 40px;
+}
+
+@media screen and (max-width: 720px) {
+    .content {
+        margin: 0px;
+    }
+}
