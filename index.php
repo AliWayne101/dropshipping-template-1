@@ -12,6 +12,7 @@ include './vars/_conf.php';
     <link rel="stylesheet" href="css/vars.css">
     <link rel="stylesheet" href="css/master.css">
     <link rel="stylesheet" href="css/sections/hero.css">
+    <link rel="stylesheet" href="css/sections/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -24,17 +25,17 @@ include './vars/_conf.php';
         <div><a href="/">Logo</a></div>
         <div>
             <ul>
-            <li><a href="/">Menu</a></li>
-            <li><a href="/">Menu</a></li>
-            <li><a href="/">Menu</a></li>
-            <li><a href="/">Menu</a></li>
-            <li><a href="/">Menu</a></li>
-            <li><a href="/">Menu</a></li>
+                <li><a href="/">Menu</a></li>
+                <li><a href="/">Menu</a></li>
+                <li><a href="/">Menu</a></li>
+                <li><a href="/">Menu</a></li>
+                <li><a href="/">Menu</a></li>
+                <li><a href="/">Menu</a></li>
             </ul>
         </div>
         <div>
             <form action="/search.php" method="post" class="search-bar">
-                <input type="text" name="search" id="search"> 
+                <input type="text" name="search" id="search">
                 <button type="submit" class="search-bar-button">S</button>
             </form>
         </div>
@@ -45,11 +46,93 @@ include './vars/_conf.php';
         <div class="hero">
             <img src="img/banner.png" alt="banner">
         </div>
-        
+
         <div class="content">
-            this is awesome
+            <h2 class="center">Top Categories</h2>
+            <div class="categories-main">
+
+                <a href="#" class="categories-main-card">
+                    <img src="https://d30fs77zq6vq2v.cloudfront.net/files/shares/20231003/Category_Top%20(1).gif"
+                        alt="Category">
+                    <div class="center">Women</div>
+                </a>
+                <a href="#" class="categories-main-card">
+                    <img src="https://d30fs77zq6vq2v.cloudfront.net/files/shares/20231003/Category_Top%20(1).gif"
+                        alt="Category">
+                    <div class="center">Women</div>
+                </a>
+                <a href="#" class="categories-main-card">
+                    <img src="https://d30fs77zq6vq2v.cloudfront.net/files/shares/20231003/Category_Top%20(1).gif"
+                        alt="Category">
+                    <div class="center">Women</div>
+                </a>
+                <a href="#" class="categories-main-card">
+                    <img src="https://d30fs77zq6vq2v.cloudfront.net/files/shares/20231003/Category_Top%20(1).gif"
+                        alt="Category">
+                    <div class="center">Women</div>
+                </a>
+                <a href="#" class="categories-main-card">
+                    <img src="https://d30fs77zq6vq2v.cloudfront.net/files/shares/20231003/Category_Top%20(1).gif"
+                        alt="Category">
+                    <div class="center">Women</div>
+                </a>
+                <a href="#" class="categories-main-card">
+                    <img src="https://d30fs77zq6vq2v.cloudfront.net/files/shares/20231003/Category_Top%20(1).gif"
+                        alt="Category">
+                    <div class="center">Women</div>
+                </a>
+                <a href="#" class="categories-main-card">
+                    <img src="https://d30fs77zq6vq2v.cloudfront.net/files/shares/20231003/Category_Top%20(1).gif"
+                        alt="Category">
+                    <div class="center">Women</div>
+                </a>
+                <a href="#" class="categories-main-card">
+                    <img src="https://d30fs77zq6vq2v.cloudfront.net/files/shares/20231003/Category_Top%20(1).gif"
+                        alt="Category">
+                    <div class="center">Women</div>
+                </a>
+                <a href="#" class="categories-main-card">
+                    <img src="https://d30fs77zq6vq2v.cloudfront.net/files/shares/20231003/Category_Top%20(1).gif"
+                        alt="Category">
+                    <div class="center">Women</div>
+                </a>
+                <a href="#" class="categories-main-card">
+                    <img src="https://d30fs77zq6vq2v.cloudfront.net/files/shares/20231003/Category_Top%20(1).gif"
+                        alt="Category">
+                    <div class="center">Women</div>
+                </a>
+                <a href="#" class="categories-main-card">
+                    <img src="https://d30fs77zq6vq2v.cloudfront.net/files/shares/20231003/Category_Top%20(1).gif"
+                        alt="Category">
+                    <div class="center">Women</div>
+                </a>
+                <a href="#" class="categories-main-card">
+                    <img src="https://d30fs77zq6vq2v.cloudfront.net/files/shares/20231003/Category_Top%20(1).gif"
+                        alt="Category">
+                    <div class="center">Women</div>
+                </a>
+
+
+            </div>
+
+            <h2 class="center">Deals Zone</h2>
+            <div class="deals">
+                <a href="#" class="deals-card">
+                    60% Off
+                </a>
+                <a href="#" class="deals-card">
+                    60% Off
+                </a>
+                <a href="#" class="deals-card">
+                    60% Off
+                </a>
+                <a href="#" class="deals-card">
+                    60% Off
+                </a>
+            </div>
         </div>
-        
+    </div>
+
     </div>
 
     <div class="footer">
@@ -64,7 +147,8 @@ include './vars/_conf.php';
         </div>
         <div>
             Copyright © 2025 <?php constant('WEBNAME'); ?> . All rights reserved.<br />
-            Designed by <b><a href="http://waynedev.vercel.app" target="_blank" rel="noopener noreferrer">Wayne Development</a></b>
+            Designed by <b><a href="http://waynedev.vercel.app" target="_blank" rel="noopener noreferrer">Wayne
+                    Development</a></b>
         </div>
         <div>
             <h2>Socials</h2>

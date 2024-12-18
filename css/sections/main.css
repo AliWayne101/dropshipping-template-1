@@ -1,0 +1,56 @@
+.categories-main {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    color: black;
+    gap: 20px;
+    padding: 20px 0;
+    margin-bottom: 50px;
+}
+
+.categories-main-card .center {
+    transition: transform 400ms ease-in-out;
+}
+
+.categories-main-card img {
+    transition: all 300ms ease-in-out;
+}
+
+.categories-main .categories-main-card img {
+    height: 180px;
+    width: 180px;
+}
+
+.categories-main-card:hover .center {
+    transform: translateY(7px);
+    color: var(--link-color);
+}
+
+.categories-main-card:hover img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.deals {
+    /* Under development */
+    /* center the objects */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: space-around;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+}
+
+.deals .deals-card {
+    height: 250px;
+    width: 250px;
+    background-color: var(--link-color);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 28px;
+    font-weight: bold;
+}
