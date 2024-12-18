@@ -116,6 +116,7 @@ include './vars/_conf.php';
             </div>
 
             <h2 class="center">Deals Zone</h2>
+
             <div class="deals">
                 <a href="#" class="deals-card">
                     60% Off
